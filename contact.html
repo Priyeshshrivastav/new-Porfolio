@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Personal Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About_me.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myskill.html">My-skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myservices.html">My-services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact-me</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+      <div class="container6" style="color: white;background-color: rgb(57, 3, 82)">
+          <h1 class="my-heading  same">Contact</h1>
+          <div class="contact">
+            <div class="contact1 contacts" style="display: flex;flex-direction:column;justify-content: center;align-items: center;">
+              <img src="icons8-phone-64.png" alt="" style="width: 40px;height: 40px;margin-right: 5%;cursor: pointer;">
+              <p><h6>+91 1234567890</h6></p>
+              <img src="icons8-message-50.png" alt=""style="width: 40px;height: 40px;margin-right: 5%;background-color:white;border-radius:7px;cursor: pointer;      "><a href="#"style="text-decoration:none;color:black;"></a>
+              <p>priyeshshrivastav4@gmail.com</p>
+              <img src="icons8-instagram-48.png" alt=""style="width: 40px;height: 40px;margin-right: 5%;cursor: pointer;">
+                <p><a href="#" style="text-decoration: none;color: black;color: white;">priyesh_shrivastav</a></p>
+              </div>
+
+            <div class="contact2 contacts" >
+              <div class="child" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                <h2>Contact Form</h2>
+                <p>Please fill out the form below to get in touch with me:</p>
+              </div>
+              <form action="submit_form.php" method="post" style="display: flex; flex-direction: column; gap: 10px;justify-content: center;align-items: center;">
+                <div class="mb-3">
+                  <!-- <label for="name" class="form-label">Name</label> -->
+      
+                    <input type="text" class="form-control" id="name" name="name" placeholder="name" style="width: 30vw; background-color: white;" required>
+                </div>
+                <div class="mb-3">
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone no" style="width: 30vw;" required>
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" id="message" name="message" rows="3" placeholder="message" style="width: 30vw;" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary  yes">Submit</button>
+              </form>
+             
+            </div>
+        </div>
+      </div>
+      <footer>
+          
+        <div class="container-footer text-center py-3 text-white ">
+          <p>&copy; 2023 Priyesh Shrivastav. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
